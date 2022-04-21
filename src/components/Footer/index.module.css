@@ -1,0 +1,37 @@
+.container {
+    padding: 0.5rem  2rem;
+    background-color: #1d3557;
+    color: #a8dadc;
+}
+
+.footer {
+    max-width: 1200px;
+    margin:0 auto;
+    padding-bottom: 2rem;
+}
+
+.footer__title {
+    padding: 1rem 0;
+}
+
+.footer__nav ul li {
+    list-style: none;
+    padding: 1rem 0rem;
+}
+
+@media screen and (min-width:768px) {
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 0;
+    }
+
+    .footer__nav ul {
+        display: flex;
+    }
+
+    .footer__nav ul li {
+        padding-left: 2rem;
+    }
+}

@@ -1,0 +1,25 @@
+.container {
+    padding: 2rem;
+    color: #1d3557;
+}
+
+.indonesia {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.indonesia__title {
+    text-align: center;
+}
+
+.indonesia__card {
+    padding: 2rem;
+}
+
+@media screen and (min-width:768px) {
+    .indonesia__card {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+}

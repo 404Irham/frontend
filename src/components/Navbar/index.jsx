@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import styles from './index.module.css'
 
 function Navbar() {
@@ -10,10 +11,18 @@ function Navbar() {
           </div>
           <div className={styles.navbar__nav}>
             <ul>
-              <li>Global</li>
-              <li>Indonesia</li>
-              <li>Provinsi</li>
-              <li>About</li>
+              <li>
+              <NavLink  to="/">Global</NavLink>
+              </li>
+              <li>
+              <NavLink to="/indonesia">Indonesia</NavLink>
+              </li>
+              <li>
+              <NavLink to="/provinsi">Provinsi</NavLink>
+              </li>
+              <li>
+              <NavLink to="/about">About</NavLink>
+              </li>
             </ul>
           </div>
         </div>

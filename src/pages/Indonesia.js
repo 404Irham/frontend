@@ -4,16 +4,17 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Summary from "../components/Summary";
 
-function Home() {
+
+function Indonesia() {
   return (
     <>
       <Navbar />
       <Hero />
-      <DataCovid URL={"https://covid19.mathdro.id/api"} />
-      <Summary URL={"https://covid19.mathdro.id/api/og"}/>
+      <DataCovid URL={"https://covid19.mathdro.id/api/countries/indonesia"} />
+      <Summary URL={"https://covid19.mathdro.id/api/countries/indonesia/og"}/>
       <Footer />
     </>
   );
 }
 
-export default Home;
+export default Indonesia;

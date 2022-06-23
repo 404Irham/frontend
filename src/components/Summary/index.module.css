@@ -1,0 +1,18 @@
+.container {
+    background-color: #a8dadc;
+    text-align : center;
+    padding: 2rem;
+}
+
+
+.summary {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.summary__image img {
+    margin: 2rem;
+    width: 100%;
+    height: auto;
+    border-radius: 2rem;
+}

@@ -1,14 +1,16 @@
+import { Route, Routes } from "react-router";
 import Home from "./pages/Home";
+import Indonesia from "./pages/Indonesia";
+import Provinces from "./pages/Provinces";
 
 function App() {
   return (
-    <div>
-      {/*
-       * Render Halaman Home
-       * Jika ingin diubah, maka ubah di Halaman Home.
-       */}
-      <Home />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/indonesia" element={<Indonesia />} />
+        <Route path="/provinsi" element={<Provinces />} />
+        <Route path="*" element={<Home />} />
+      </Routes>
   );
 }
 

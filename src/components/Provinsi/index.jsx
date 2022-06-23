@@ -1,11 +1,10 @@
 import React from 'react'
-import data from '../../utils/constants/provinces'
 import Table from '../Table'
 import styles from './index.module.css'
 
 function Provinsi(props) {
 
-    const { provinces, setProvinces } = props;
+    const { provinces } = props;
 
 
     return (
